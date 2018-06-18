@@ -9,5 +9,7 @@ functions:
     image: s8sg/of_badge_gen
     environment:
       content_type: "image/svg+xml"
+      Cache-Control: "no-cache"
+      Etag: "image-tag"
       validate_customers: "true"
       customers_url: "https://raw.githubusercontent.com/openfaas/openfaas-cloud/master/CUSTOMERS"

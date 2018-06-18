@@ -1,7 +1,7 @@
 ## of_badge_gen - status badge for opendfaas-cloud
 
 [![OpenFaaS](https://img.shields.io/badge/openfaas-serverless-blue.svg)](https://www.openfaas.com)
-[![Status](http://74e23734.ngrok.io/function/of_badge_gen?user=s8sg&repo=of_badge_gen&branch=master)](http://74e23734.ngrok.io/function/of_badge_gen?user=s8sg&repo=of_badge_gen&branch=master)
+[![Status](http://7a30f6e9.ngrok.io/function/of_badge_gen?user=s8sg&repo=of_badge_gen&branch=master)](http://7a30f6e9.ngrok.io/function/of_badge_gen?user=s8sg&repo=of_badge_gen&branch=master)
 
 
 #### About
