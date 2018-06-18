@@ -8,12 +8,10 @@ of_badge_gen is a faas function to generate status badge for function deployed i
 
 | badge | status |
 | --- | --- |
-| [![success_DEPLOY](https://img.shields.io/badge/openfaas--cloud-deployed-green.svg)](https://img.shields.io/badge/openfaas--cloud-deployed-green.svg) | Successfully Deployed |
-| [![pending_BUILD](https://img.shields.io/badge/openfaas--cloud-build%20pending-yellow.svg)](https://img.shields.io/badge/openfaas--cloud-build%20pending-yellow.svg) | Pending at Build |
-| [![failure_BUILD](https://img.shields.io/badge/openfaas--cloud-build%20fail-red.svg)](https://img.shields.io/badge/openfaas--cloud-build%20fail-red.svg) | Failed to Build |
-| [![pending_DEPLOY](https://img.shields.io/badge/openfaas--cloud-deploy%20pending-yellow.svg)](https://img.shields.io/badge/openfaas--cloud-deploy%20pending-yellow.svg) | Pending at Deploy |
-| [![failure_DEPLOY](https://img.shields.io/badge/openfaas--cloud-deploy%20fail-red.svg)](https://img.shields.io/badge/openfaas--cloud-deploy%20fail-red.svg) | Failed to Deploy |
-| [![Unknown](https://img.shields.io/badge/openfaas--cloud-unknown-lightgrey.svg)](https://img.shields.io/badge/openfaas--cloud-unknown-lightgrey.svg) | Internal Issue / Unknown  |
+| [![success](https://github.com/faasinating/faas-cloud-badge/blob/master/faas-cloud-badge/assets/image/success.svg)](https://github.com/faasinating/faas-cloud-badge/blob/master/faas-cloud-badge/assets/image/success.svg) | Successfully Deployed |
+| [![pending](https://github.com/faasinating/faas-cloud-badge/blob/master/faas-cloud-badge/assets/image/pending.svg)](https://github.com/faasinating/faas-cloud-badge/blob/master/faas-cloud-badge/assets/image/pending.svg) | Pending to Deploy |
+| [![failure](https://github.com/faasinating/faas-cloud-badge/blob/master/faas-cloud-badge/assets/image/failure.svg)](https://github.com/faasinating/faas-cloud-badge/blob/master/faas-cloud-badge/assets/image/failure.svg) | Failed to Deploy |
+| [![Unknown](https://github.com/faasinating/faas-cloud-badge/blob/master/faas-cloud-badge/assets/image/unknown.svg)](https://github.com/faasinating/faas-cloud-badge/blob/master/faas-cloud-badge/assets/image/unknown.svg) | Internal Issue / Unknown  |
 
 #### Deploying in your openfaas-cloud
 
