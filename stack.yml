@@ -3,13 +3,11 @@ provider:
   gateway: http://127.0.0.1:8080
 
 functions:
-  of_badge_gen:
-    lang: go
-    handler: ./of_badge_gen
-    image: s8sg/of_badge_gen
+  faas-cloud-badge:
+    skip_build: true
+    lang: Dockerfile
+    handler: ./faas-cloud-badge
+    image: s8sg/faas-cloud-badge:1.0.0
     environment:
-      content_type: "image/svg+xml"
-      Cache-Control: "no-cache"
-      Etag: "image-tag"
-      validate_customers: "true"
+      validate_customers: "false"
       customers_url: "https://raw.githubusercontent.com/openfaas/openfaas-cloud/master/CUSTOMERS"
